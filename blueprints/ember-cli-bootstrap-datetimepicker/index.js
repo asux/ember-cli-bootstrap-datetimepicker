@@ -9,10 +9,10 @@ module.exports = {
       https://github.com/Eonasdan/bootstrap-datetimepicker/issues/1783
     */
     return this.addPackagesToProject([
-      { name: 'ember-cli-moment-shim', target: '3.0.1' },
-      { name: 'eonasdan-bootstrap-datetimepicker', target: '^4.17.46' },
-      { name: 'moment', target: '^2.17.1' },
-      { name: 'moment-timezone', target: '^0.5.11' }
+      { name: 'ember-cli-moment-shim', target: '3.3.0' },
+      { name: 'eonasdan-bootstrap-datetimepicker', target: '^4.17.47' },
+      { name: 'moment', target: '^2.18.1' },
+      { name: 'moment-timezone', target: '^0.5.13' }
     ]);
   }
 };
